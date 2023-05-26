@@ -23,8 +23,6 @@ body{
 }
 nav{
   background-color: rgb(48, 44, 44);
-  color: white;
-  
 }
 
 nav ul{
@@ -47,7 +45,7 @@ nav ul li {
   align-items: center;
   
 }
-nav ul li:hover{
+nav ul li a:hover{
   color: rgb(25, 204, 174);
 }
 nav ul li a {
