@@ -47,7 +47,9 @@ nav ul li {
   align-items: center;
   
 }
-
+nav ul li:hover{
+  color: rgb(25, 204, 174);
+}
 nav ul li a {
  text-align: center;
   color: white;
