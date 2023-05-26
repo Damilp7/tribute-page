@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+  background-color: rgb(223, 217, 217);
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+.container{
+  background-color: white;
+  color: white;
+  position: relative;
+}
+
+.container-body{
+  margin-top: 20px;
+  margin-bottom: 25px;
+  background-color: white;
+  width: 1050px;
+  margin-left: 300px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav{
+  background-color: rgb(48, 44, 44);
+  color: white;
+  
+}
+
+nav ul{
+  list-style-type: none;
+  display: inline-block;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+}
+
+nav ul li {
+  display: inline;
+  float: left;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+nav ul li a {
+ text-align: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.intro{
+  padding-top: 50px;
+  text-align: center;
+  justify-content: center;
+  width: 750px;
+  margin: auto;
+  position: sticky;
+  z-index: 2;
+}
+
+.intro h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+.intro p{
+  font-size: 13px;
+  padding-bottom: 40px;
+}
+
+.intro a{
+  color: rgb(8, 164, 175);
+  text-decoration: none;
+}
+
+hr{
+  width: 850px;
+  margin: auto;
+  border-color: rgba(255, 255, 255, 0.39);
+}
+
+.tribute-section{
+  width: 550px;
+  margin: auto;
+  padding-top: 30px;
+}
+.tribute{
+  padding-bottom: 30px;
+}
+.tribute-title{
+  font-size: 14px;
+  padding-bottom: 0;
+  margin-bottom: 0px;
+}
+.message{
+  font-size: 14px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.author{
+  font-size: 12px;
+  color: silver;
+}
+footer{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+footer .steve{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 32px;
+  font-weight: 600;
+  
+}
+footer h3{
+  display: block;
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+footer p{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  display: inline;
+  font-weight: 600;
+  font-size: 14px;
+}
